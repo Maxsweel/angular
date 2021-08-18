@@ -12,6 +12,10 @@ import { HomeComponent } from './home.component';
   imports: [
     CommonModule,
     HomeRoutingModule
-  ]
+  ],
+
+  exports:[HomeComponent] //tornando o homecomponent visivel fora do modulo home sendo chamado no app.module
+
+
 })
 export class HomeModule { }
