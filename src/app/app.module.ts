@@ -11,8 +11,8 @@ import { HomeModule } from './home/home.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HomeModule //chamando home.module que por sua vez chama o home.component que abre o html
+    AppRoutingModule
+    //HomeModule //chamando home.module que por sua vez chama o home.component que abre o html
   ],
   providers: [],
   bootstrap: [AppComponent]
